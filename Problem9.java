@@ -20,7 +20,8 @@ public class Problem9 {
 	   System.out.println("A: " + Double.toString(result[0]));
 	   System.out.println("B: " + Double.toString(result[1]));
 	   System.out.println("C: " + Double.toString(result[2]));
-
+	   double product = result[0] * result[1] * result[2]; 
+	   System.out.println("Product is " + product);
    }
    
    /**
